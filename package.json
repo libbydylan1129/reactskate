@@ -1,5 +1,5 @@
 {
-  "homepaage":"http://libbydylan1129.github.io/Skate-Spot",
+  "homepaage": "http://libbydylan1129.github.io/Skate-Spot",
   "name": "skatespot",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
     "react-firebase": "^2.2.8",
     "react-firebaseui": "^4.1.0",
     "react-geolocated": "^3.0.1",
+    "react-google-maps": "^9.4.5",
     "react-hook-form": "^4.9.7",
     "react-icons": "^3.9.0",
     "react-scripts": "3.4.0",
