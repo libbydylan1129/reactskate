@@ -8,7 +8,6 @@ import Google from './Google.js';
 import Footer from '../src/Footer.js';
 import fire from './config/firebaseConfig.js';
 import Confirm from './confirm.js';
-import Account from './accountPage.js'
 
 import {
   BrowserRouter as Router,
@@ -29,7 +28,6 @@ class App extends Component {
       <Route exact path="/" component={Home} />
       <Route path="/spots" component={Spots} />
       <Route path="/community" component={Community} />
-      <Route path="/account" component={Account}/>
       </Router>
       </div>
       <div>
