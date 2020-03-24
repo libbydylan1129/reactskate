@@ -48,10 +48,12 @@ font-family: 'Quicksand', sans-serif;
   font-size: 25px;
 }
 
-.login_link{
+.li_login{
   color: #CC6600;
-  font-size: 25px;
+  font-size: 20px;
   padding-left: 250px;
+  bottom: 75px;
+  position: relative;
 }
 
 .li_input{
@@ -73,9 +75,9 @@ font-family: 'Quicksand', sans-serif;
   border-radius: 25px;
   border: 2px solid #CC6600;
   width: 50px;
-  height: 25px;
+  height: 20px;
   position: relative;
-  bottom: 10px;
+  bottom: 11px;
   right: 60px;
 }
 
@@ -94,9 +96,8 @@ font-family: 'Quicksand', sans-serif;
 
 .header_icon{
   position: relative;
-  right:5px;
-  bottom: 5px;
-
+top: 1px;
+right: 1px;
 }
 
 
