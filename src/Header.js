@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ReactSearchBox from 'react-search-box';
 import Logo from '../src/images/Skate_Spot.jpg';
 import {FaSearch} from 'react-icons/fa';
-import Login from './Google.js'
+import Google from './Google.js'
 /*import Facebook from './Facebook.js'*/
 /*import {FaFacebookSquare} from 'react-icons/fa';
 import {FaGoogle} from 'react-icons/fa';*/
@@ -41,16 +41,20 @@ export default class Header extends Component{
               <li className="li_spots"><Link to="/spots" className="spots_link">Spots</Link></li>
               <li className="li_community"><Link to="/community" className="community_link">Community</Link></li>
               <li className="li_input">
-              <FaSearch className="header_icon"/>
+=
+              <input type="search" className="header_input" placeholder="Search"style={{height: "20px", width:"250px"}}/>
+</li>
 
-              <input type="text" className="header_input" placeholder="Search"style={{height: "20px", width:"250px"}}/>
+              <li><button className="header_button"type="search" placeholder="search">
+               <FaSearch className="header_icon" />
+               </button>
+               </li>
 
+              <li className="li_login">
+              <h2>Login>/h2>
               </li>
 
-              <li><button className="header_button"type="search" placeholder="search">search</button></li>
-              <li><h3 className="loginHeader"> Log In</h3></li>
-              <li><button onClick={this.setState.login}>Google</button></li>
-          </ul>
+              </ul>
       </div>
     )
 
